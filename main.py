@@ -1,14 +1,11 @@
 import turtle
 
-def staircase(size, nb):
-    for i in range(0, nb):
-        t.forward(size)
+def square():
+    for i in range(0, 4):
         t.left(90)
-        t.forward(size)
-        t.right(90)
+        t.forward(100)
 
 
 t = turtle.Turtle()
-staircase(50, 5)
-t.forward(38)
+square()
 turtle.done()
