@@ -1,44 +1,14 @@
 import turtle
-"""
-t = turtle.Turtle()
 
-t.forward(38)
-t.left(90)
-t.forward(38)
-t.right(90)
-t.forward(38)
-t.left(90)
-t.forward(38)
-t.right(90)
-t.forward(38)
-t.left(90)
-t.forward(38)
-t.right(90)
-t.forward(38)
-t.left(90)
-t.forward(38)
-t.right(90)
-t.forward(38)
-t.left(90)
-t.forward(38)
-t.right(90)
-t.forward(38)
-t.left(90)
-t.forward(38)
-
-turtle.done()
-"""
-def my_turtle():
-    t.forward(38)
-    t.left(90)
-    t.forward(38)
-    t.right(90)
-    t.forward(38)
+def staircase(size, nb):
+    for i in range(0, nb):
+        t.forward(size)
+        t.left(90)
+        t.forward(size)
+        t.right(90)
 
 
 t = turtle.Turtle()
-
-for _ in range(5):
-    my_turtle()
-
+staircase(50, 5)
+t.forward(38)
 turtle.done()
